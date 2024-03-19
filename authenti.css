@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../file_upload/image/cv.png) black;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+form {
+    padding: 20px;
+    /* width: 50%; */
+    margin: auto;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    backdrop-filter: blur(90px);
+    /* box-shadow: ; */
+    border-radius: 8px;
+}
+
+form img {
+    width: 100px;
+    padding-top: 10px;
+}
+
+form input {
+    width: 300px;
+    padding: 8px;
+    outline: none;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 300px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-color: #559cf9;
+}
+
+.link a {
+    color: white;
+    opacity: 60%;
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.link a:hover {
+    color: #559cf9;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'poppins',sans-serif;
+}
+
