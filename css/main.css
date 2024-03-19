@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+h1, h2 {
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.jumbo h1 {
+    color: white;
+    padding-top: 120px;
+    line-height: 61px;
+}
+
+.ensemble img {
+    width: 400px;
+}
+
+span {
+    color: #2684FF;
+}
+
+.jumbo p {
+    color: white;
+    padding-top: 12px;
+}
+
+.jumbo button {
+    color: white;
+    background-color: #2684FF;
+    border: none;
+    padding: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 40px;
+    cursor: pointer;
+    animation-duration: 3s;
+}
+
+.jumbo button:hover {
+    /* transition: all; */
+    color: #2684FF;
+    background-color: white;
+    border: 1px solid #2684FF;
+}
+
+
+.ensemble {
+    display: flex;
+    justify-content: space-around;
+    background: url(../image/cv.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.sta p {
+    font-size: 15px;
+    font-weight: 400;
+    /* padding-top: 21px; */
+}
+
+.sta img {
+    /* padding-top: 17px; */
+    width: 100px;
+}
+
+.sta {
+    margin-top: 140px;
+    margin-left: 60px;
+}
+
+.sta h2 {
+    font-weight: 600;
+}
+
+.one {
+    /* padding-left: 26px; */
+    margin-left: 20px;
+}
+
+#vert {
+    position: absolute;
+    top: -0vh;
+    padding-top: 40px;
+    z-index: -10;
+    margin-left: -70px;
+}
+
+#jaune {
+    position: absolute;
+    /* top: -1vh; */
+    margin-top: -200px;
+    margin-left: -25vw;
+}
+
+.services h2 {
+    text-align: center;
+    padding: 100px 0;
+    padding-bottom: 0px;
+}
+
+.services p {
+    color: #2684FF;
+}
+
+#doc {
+    text-align: center;
+    /* padding: 0px; */
+    padding-bottom: 40px;
+}
+
+#bleu {
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 30px;
+}
+
+.destails-service p {
+    color: white;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.destails-service h3 {
+    color: white;
+}
+
+#click {
+    background-color: #2684FF;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.service-content {
+    display: flex;
+    align-items: flex-start;
+} 
+
+.destails-service {
+    /* padding-top: 40px; */
+    padding-left: 16px;
+}
+
+.destails-service a {
+    text-decoration: none;
+    color: white;
+    opacity: 50%;
+    /* padding-top: 20px; */
+    cursor: pointer;
+}
+
+.destails-service a:hover {
+    color: #2684FF;
+    opacity: 100%;
+}
+
+.service .container {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about p {
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 23px;
+    padding-bottom: 37px;
+}
+
+.about button {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    color: #2684FF;
+    width: 140px;
+    border-radius: 8px;
+    border: 2px solid #2684FF;
+    font-weight: 600;
+}
+
+.about button:hover {
+    background-color: #2684FF;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border: 2px solid #2684FF;
+}
+
+.about {
+    display: flex;
+    padding-top: 100px ;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: center;
+    background: url(../image/cover-about.png);
+    background-position: center;
+    background-size: auto;
+    padding-bottom: 100px;
+}
+
+.about img {
+    width: 500px;
+}
+
+.about h2::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 40px;
+    background-color: #2684FF;
+    margin-top: 33px;
+    margin-left: -36px;
+}
+
+.decouverte {
+    background: url(../image/hero_one.png)fixed;
+    background-position: center ;
+    background-size: cover;
+    padding-bottom: 100px 0;
+}
+
+.decouverte h1 {
+    padding-top: 198px;
+    color: white;
+    padding-bottom: 9px;
+}
+
+.decouverte p {
+    padding-bottom: 36px;
+    color: white;
+}
+
+.decouverte button {
+    margin-bottom: 148px;
+    color: white;
+    background: transparent;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.pub {
+    padding-top: 100px ;
+    padding-bottom: 100px;
+}
+
+.pub h2 {
+    text-align: center;
+}
+
+.pub p {
+    text-align: center;
+    color: #2684FF;
+    padding-bottom: 30px;
+}
+
+.contenue h4 {
+    color: white;
+}
+
+.contenue i {
+    color: gray;
+    background: transparent;
+}
+
+.contenue h6 {
+    color:gray;
+}
+
+.contenues {
+    margin-left: 16px;
+    gap: 10px;
+}
+
+.outils {
+    display: flex;
+    margin-left: 180px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.outi {
+    display: flex;
+    padding-top: 10px;
+}
+
+.contenues .container {
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-prev {
+    left: -50px;
+    border: 1px solid #2684FF;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.slick-next {
+    margin-left:86vw;
+    padding-top: -20px;
+    border: 1px solid #2684FF;
+    padding: 10px;
+    border-radius: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.help {
+    background: url(../image/her0-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.help h2 {
+    padding-top: 150px;
+    font-family: 'poppins', sans-serif;
+    padding-bottom: 48px;
+}
+
+.help button {
+    color: white;
+    background-color: #2684FF;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 110px;
+}
+
+

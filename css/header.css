@@ -1,0 +1,123 @@
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    /* width: 100% !important; */
+    /* z-index: 200; */
+    position: relative;
+
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    /* background: blur(50px); */
+    /* background-color: black; */
+    z-index: 300;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-left: -10px;
+    margin-bottom: 0px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a i {
+    color: #2684FF;
+    margin-left: 5px;
+    /* border-bottom: 3px solid #2684FF; */
+}
+
+nav ul li a:hover {
+color: #2684FF !important;
+}
+
+#submit {
+    color: white;
+    background-color: #559cf9;
+    padding: 11px;
+    cursor: pointer;
+    border-radius: 8px;
+    /* opacity: 100%; */
+}
+
+input {
+    outline: none;
+}
+
+.champs input {
+    padding: 7px;
+    border-radius: 8px;
+    width: 310px;
+    border: none;
+    padding-left: 16px;
+    outline: none;
+}
+
+.champs {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.champs:hover {
+    outline: none;
+}
+
+/* .header-white {
+    background-color: rgb(235, 230, 230);
+} */
+
+.champs #send {
+    width: 90px;
+}
+
+.sous-menu {
+    backdrop-filter: blur(8px);
+    /* background-color: lightcoral; */
+    list-style: none;
+    display: flex;
+    /* flex-direction: column; */
+    color: white;
+    padding-top: 10px;
+    padding-left: 0;
+    position: absolute;
+}
+
+.sous-menu li a {
+    color: white;
+}
+
+/* .sous-menu {
+    display: none;
+} */
+
+nav ul img {
+    margin-left: 5px;
+}
+
+
+
+.fa-search {
+    background-color: #2684FF;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
